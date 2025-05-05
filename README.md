@@ -9,6 +9,20 @@ Incluye:
 * 💾 **Persistencia Extensible**: guardá el estado automáticamente en localStorage, sessionStorage, o Salesforce.
 
 ---
+### 🖼️ Ejemplos de uso
+
+#### 1. Navegación SPA por rutas
+![SPA Routing](assets/spa-routing-1.webp)
+![SPA Routing](assets/spa-routing-2.webp)
+![SPA Routing](assets/spa-routing-3.webp)
+
+#### 2. Global Store
+![Global Store](assets/global-store-1.webp)
+![Global Store](assets/global-store-2.webp)
+![Global Store](assets/global-store-3.webp)
+![Global Store](assets/global-store-4.webp)
+
+---
 
 ## 🚀 Funcionalidades
 
