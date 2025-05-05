@@ -1,0 +1,12 @@
+<template>
+    <h2>🛒 Carrito</h2>
+    <template if:true={cart.items.length}>
+      <template for:each={cart.items} for:item="item">
+        <p key={item.id}>{item.name} x {item.quantity}</p>
+      </template>
+      <p><strong>Total: ${cart.total}</strong></p>
+    </template>
+    <template if:false={cart.items.length}>
+      <p>Carrito vacío</p>
+    </template>
+  </template>
