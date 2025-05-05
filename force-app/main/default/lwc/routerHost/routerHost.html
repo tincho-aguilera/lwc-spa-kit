@@ -1,0 +1,11 @@
+<template>
+    <c-navigation-buttons></c-navigation-buttons>
+
+    <template if:true={showHome}>
+      <c-home-component></c-home-component>
+    </template>
+
+    <template if:true={showCart}>
+      <c-cart-component></c-cart-component>
+    </template>
+</template>
