@@ -34,7 +34,7 @@ globalStore.set("user", { name: "Tincho" });
 
 ---
 
-### 🌐 Router SPA (`utils.js`)
+### 🌐 Router SPA (`router.js`)
 
 Permite navegación entre vistas usando el hash de la URL (`#home`, `#cart`, etc.):
 
@@ -43,7 +43,7 @@ Permite navegación entre vistas usando el hash de la URL (`#home`, `#cart`, etc
 * Reacciona automáticamente con `startRouter()`
 
 ```js
-import { defineRoute, navigateTo, startRouter } from "c/utils";
+import { defineRoute, navigateTo, startRouter } from "c/router";
 
 defineRoute("home", () => showHomeComponent());
 
@@ -86,7 +86,7 @@ export const globalStore = new Store(salesforceAdapter);
 force-app/main/default/lwc/
 ├── globalStore/           # store desacoplado y reactivo
 ├── storageAdapter/        # adaptadores para persistencia
-├── utils/                 # router SPA
+├── router/                # router SPA
 ├── cartAdder/             # componente que modifica el store
 ├── cartViewer/            # componente que reacciona al store
 ├── routerHost/            # componente principal que muestra vistas
